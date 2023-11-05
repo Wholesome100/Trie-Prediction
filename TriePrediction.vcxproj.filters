@@ -15,8 +15,96 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TriePrediction.cpp">
+    <ClCompile Include="TriePrediction.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TriePrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_cases\corpus01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus03.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus04.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus05.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus06.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus07.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus08.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\corpus09.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input03.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input04.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input05.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input06.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input07.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input08.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\input09.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output03.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output04.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output05.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output06.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output07.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output08.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_cases\output09.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

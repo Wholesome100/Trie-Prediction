@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -127,7 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TriePrediction.cpp" />
+    <ClCompile Include="TriePrediction.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TriePrediction.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_cases\corpus01.txt" />
+    <Text Include="test_cases\corpus02.txt" />
+    <Text Include="test_cases\corpus03.txt" />
+    <Text Include="test_cases\corpus04.txt" />
+    <Text Include="test_cases\corpus05.txt" />
+    <Text Include="test_cases\corpus06.txt" />
+    <Text Include="test_cases\corpus07.txt" />
+    <Text Include="test_cases\corpus08.txt" />
+    <Text Include="test_cases\corpus09.txt" />
+    <Text Include="test_cases\input01.txt" />
+    <Text Include="test_cases\input02.txt" />
+    <Text Include="test_cases\input03.txt" />
+    <Text Include="test_cases\input04.txt" />
+    <Text Include="test_cases\input05.txt" />
+    <Text Include="test_cases\input06.txt" />
+    <Text Include="test_cases\input07.txt" />
+    <Text Include="test_cases\input08.txt" />
+    <Text Include="test_cases\input09.txt" />
+    <Text Include="test_cases\output01.txt" />
+    <Text Include="test_cases\output02.txt" />
+    <Text Include="test_cases\output03.txt" />
+    <Text Include="test_cases\output04.txt" />
+    <Text Include="test_cases\output05.txt" />
+    <Text Include="test_cases\output06.txt" />
+    <Text Include="test_cases\output07.txt" />
+    <Text Include="test_cases\output08.txt" />
+    <Text Include="test_cases\output09.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
